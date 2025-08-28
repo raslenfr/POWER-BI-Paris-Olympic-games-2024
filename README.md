@@ -1,4 +1,4 @@
-# 🏅 Tokyo 2020 Olympics Power BI Dashboard
+# 🏅 Paris  Olympics 2024 Power BI Dashboard 
 
 Welcome to my Power BI project focused on the **2020 Tokyo Olympic Games**. This interactive dashboard delivers a deep dive into athlete performance, medal distribution, team analytics, and global insights — all powered by DAX and engaging Power BI visuals.
 
