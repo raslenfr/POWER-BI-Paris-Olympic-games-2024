@@ -29,9 +29,109 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 <td>🆓 Free Download</td>
 </tr>
 <tr>
-<td><strong>Demo Video</strong></td>
-<td>YouTube Walkthrough</td>
+<td><strong>Demo Videos</strong></td>
+<td>Multiple YouTube Tutorials</td>
 <td>🎥 Available</td>
+</tr>
+</tbody>
+</table>
+
+## 🎥 Video Tutorial Library
+
+<table>
+<thead>
+<tr>
+<th>Video Type</th>
+<th>Duration</th>
+<th>Content Focus</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Power BI in 60 Seconds</strong></td>
+<td>1 minute</td>
+<td>Quick introduction to Power BI</td>
+<td><a href="https://www.youtube.com/watch?v=J2EXy2qdAsM">Watch Now</a></td>
+</tr>
+<tr>
+<td><strong>Complete Project Walkthrough</strong></td>
+<td>Full Tutorial</td>
+<td>Detailed dashboard demonstration</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">Watch Here</a></td>
+</tr>
+<tr>
+<td><strong>Live Demo</strong></td>
+<td>Included in Tutorial</td>
+<td>Real-time dashboard interaction</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">View Demo</a></td>
+</tr>
+</tbody>
+</table>
+
+## ⚡ Power BI in 60 Seconds
+
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Covered in Video</th>
+<th>Key Takeaway</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>What is Power BI?</strong></td>
+<td>✅ Yes</td>
+<td>Business intelligence platform overview</td>
+</tr>
+<tr>
+<td><strong>Essential Features</strong></td>
+<td>✅ Yes</td>
+<td>Key functionalities you need to know</td>
+</tr>
+<tr>
+<td><strong>Data Visualization</strong></td>
+<td>✅ Yes</td>
+<td>Transforming data into insights</td>
+</tr>
+<tr>
+<td><strong>Why It's Essential</strong></td>
+<td>✅ Yes</td>
+<td>Business value and impact</td>
+</tr>
+</tbody>
+</table>
+
+## 📢 Professional Links & Social Media
+
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Content Type</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LinkedIn</strong></td>
+<td>Professional Profile</td>
+<td>Project portfolio and career profile</td>
+<td><a href="https://www.linkedin.com/in/raslen-ferchihi/details/projects/">View Profile</a></td>
+</tr>
+<tr>
+<td><strong>YouTube</strong></td>
+<td>Quick Explainer</td>
+<td>Power BI in 60 seconds</td>
+<td><a href="https://www.youtube.com/watch?v=J2EXy2qdAsM">Watch Video</a></td>
+</tr>
+<tr>
+<td><strong>YouTube</strong></td>
+<td>Full Tutorial</td>
+<td>Complete project walkthrough</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">Watch Tutorial</a></td>
 </tr>
 </tbody>
 </table>
@@ -44,55 +144,39 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 <th>Step</th>
 <th>Action</th>
 <th>Time Required</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>1. Download</strong></td>
+<td><strong>1. Quick Overview</strong></td>
+<td>Watch 60-second intro</td>
+<td>1 minute</td>
+<td><a href="https://www.youtube.com/watch?v=J2EXy2qdAsM">Video</a></td>
+</tr>
+<tr>
+<td><strong>2. Download</strong></td>
 <td>Get <code>Olympics.pbix</code> file</td>
 <td>2 minutes</td>
+<td>Project File</td>
 </tr>
 <tr>
-<td><strong>2. Install</strong></td>
+<td><strong>3. Install</strong></td>
 <td>Power BI Desktop (free)</td>
 <td>5 minutes</td>
+<td>Microsoft Website</td>
 </tr>
 <tr>
-<td><strong>3. Open</strong></td>
+<td><strong>4. Open</strong></td>
 <td>Launch .pbix file</td>
 <td>1 minute</td>
+<td>Power BI Desktop</td>
 </tr>
 <tr>
-<td><strong>4. Explore</strong></td>
-<td>Interact with dashboard</td>
-<td>Immediate</td>
-</tr>
-</tbody>
-</table>
-
-## 🎥 Video Tutorial & Live Demo
-
-<table>
-<thead>
-<tr>
-<th>Resource</th>
-<th>Content Covered</th>
-<th>Duration</th>
-<th>Link</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>YouTube Tutorial</strong></td>
-<td>Complete project walkthrough</td>
-<td>Full Explanation</td>
-<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">Watch Here</a></td>
-</tr>
-<tr>
-<td><strong>Live Demo</strong></td>
-<td>Real-time dashboard interaction</td>
-<td>Included in Video</td>
-<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">View Demo</a></td>
+<td><strong>5. Deep Dive</strong></td>
+<td>Watch full tutorial</td>
+<td>15-20 minutes</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">Tutorial</a></td>
 </tr>
 </tbody>
 </table>
@@ -101,12 +185,17 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 <table>
 <thead>
 <tr>
-<th>Video Section</th>
+<th>Video</th>
 <th>Learning Objectives</th>
 <th>Skills Demonstrated</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><strong>Power BI in 60s</strong></td>
+<td>Platform overview, key features</td>
+<td>Concept understanding</td>
+</tr>
 <tr>
 <td><strong>Data Transformation</strong></td>
 <td>Raw data to structured format</td>
@@ -255,31 +344,36 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 </tbody>
 </table>
 
-## 💡 Learning Outcomes
+## 💡 Learning Pathways
 
 <table>
 <thead>
 <tr>
-<th>Skill Level</th>
-<th>What You'll Learn</th>
-<th>Practical Application</th>
+<th>Time Available</th>
+<th>Recommended Approach</th>
+<th>Expected Outcome</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Beginner</strong></td>
-<td>Power BI basics, navigation</td>
-<td>Dashboard interaction</td>
+<td><strong>1 Minute</strong></td>
+<td>Watch "Power BI in 60 Seconds"</td>
+<td>Basic understanding of Power BI</td>
 </tr>
 <tr>
-<td><strong>Intermediate</strong></td>
-<td>DAX formulas, data modeling</td>
-<td>Business calculations</td>
+<td><strong>5 Minutes</strong></td>
+<td>Download and open dashboard</td>
+<td>Hands-on initial experience</td>
 </tr>
 <tr>
-<td><strong>Advanced</strong></td>
-<td>Complex relationships, optimization</td>
-<td>Enterprise analytics</td>
+<td><strong>20 Minutes</strong></td>
+<td>Watch full tutorial + explore</td>
+<td>Comprehensive understanding</td>
+</tr>
+<tr>
+<td><strong>1 Hour+</strong></td>
+<td>Deep dive + practice exercises</td>
+<td>Skill development</td>
 </tr>
 </tbody>
 </table>
@@ -325,29 +419,34 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 <tr>
 <th>Audience</th>
 <th>Benefit</th>
-<th>Use Case</th>
+<th>Recommended Starting Point</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td><strong>Absolute Beginners</strong></td>
+<td>Learn Power BI from scratch</td>
+<td>60-second video → Full tutorial</td>
+</tr>
+<tr>
 <td><strong>Students</strong></td>
-<td>Learn Power BI hands-on</td>
 <td>Academic projects, skill development</td>
+<td>Full tutorial → Hands-on practice</td>
 </tr>
 <tr>
 <td><strong>Professionals</strong></td>
-<td>Business intelligence skills</td>
-<td>Career advancement, reporting</td>
+<td>Career advancement, reporting skills</td>
+<td>Dashboard exploration → Advanced features</td>
 </tr>
 <tr>
 <td><strong>Data Analysts</strong></td>
 <td>Advanced DAX techniques</td>
-<td>Real-world analytics projects</td>
+<td>DAX formulas → Custom modifications</td>
 </tr>
 <tr>
 <td><strong>Sports Analysts</strong></td>
-<td>Performance analytics</td>
-<td>Athlete and team analysis</td>
+<td>Performance analytics applications</td>
+<td>Sports data analysis → Adaptation</td>
 </tr>
 </tbody>
 </table>
@@ -398,8 +497,13 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 </thead>
 <tbody>
 <tr>
+<td><strong>Quick Introduction</strong></td>
+<td>Watch 60-second overview</td>
+<td>Basic Power BI understanding</td>
+</tr>
+<tr>
 <td><strong>Learning Power BI</strong></td>
-<td>Follow video tutorial</td>
+<td>Follow full video tutorial</td>
 <td>Hands-on skill development</td>
 </tr>
 <tr>
@@ -414,7 +518,7 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 </tr>
 <tr>
 <td><strong>Template Creation</strong></td>
-<td>Adapt for other sports</td>
+<td>Adapt for other sports/industries</td>
 <td>Custom analytics solutions</td>
 </tr>
 </tbody>
@@ -432,7 +536,12 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 </thead>
 <tbody>
 <tr>
-<td><strong>Time to Implement</strong></td>
+<td><strong>Time to Basic Understanding</strong></td>
+<td>1 minute</td>
+<td>Quick knowledge acquisition</td>
+</tr>
+<tr>
+<td><strong>Time to Implementation</strong></td>
 <td>Immediate</td>
 <td>No setup required</td>
 </tr>
@@ -461,29 +570,40 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 <tr>
 <th>Action</th>
 <th>Priority</th>
-<th>Result</th>
+<th>Time Required</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Download File</strong></td>
+<td><strong>Watch Quick Overview</strong></td>
 <td>High</td>
-<td>Immediate access</td>
+<td>1 minute</td>
+<td><a href="https://www.youtube.com/watch?v=J2EXy2qdAsM">60s Video</a></td>
 </tr>
 <tr>
-<td><strong>Watch Tutorial</strong></td>
+<td><strong>Download File</strong></td>
 <td>High</td>
-<td>Complete understanding</td>
+<td>2 minutes</td>
+<td><code>Olympics.pbix</code></td>
+</tr>
+<tr>
+<td><strong>Watch Full Tutorial</strong></td>
+<td>High</td>
+<td>15-20 minutes</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">Tutorial</a></td>
 </tr>
 <tr>
 <td><strong>Practice Skills</strong></td>
 <td>Medium</td>
-<td>Skill reinforcement</td>
+<td>30+ minutes</td>
+<td>Hands-on exploration</td>
 </tr>
 <tr>
-<td><strong>Apply to Projects</strong></td>
-<td>Medium</td>
-<td>Practical experience</td>
+<td><strong>Connect on LinkedIn</strong></td>
+<td>Low</td>
+<td>2 minutes</td>
+<td><a href="https://www.linkedin.com/in/raslen-ferchihi/details/projects/">Profile</a></td>
 </tr>
 </tbody>
 </table>
@@ -492,19 +612,36 @@ A comprehensive Power BI dashboard analyzing Olympic Games data with interactive
 
 ## 🚀 Ready to Get Started?
 
-### 📥 **Download Now:**
+### 🎬 **Start with the 60-Second Overview:**
+**[Power BI in 60 Seconds](https://www.youtube.com/watch?v=J2EXy2qdAsM)**
+- What Power BI is
+- Essential features you should know  
+- Why it's crucial for data visualization
+- Quick understanding in under 1 minute
+
+### 📥 **Download the Dashboard:**
 - **File:** `Olympics.pbix`
 - **Requirements:** Power BI Desktop (Free)
 - **Setup Time:** 2 minutes
 
-### 🎬 **Watch Complete Tutorial:**
-**[YouTube Video: Paris Olympics 2024 Power BI Dashboard](https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s)**
+### 🎥 **Watch Complete Tutorial:**
+**[Paris Olympics 2024 Power BI Dashboard](https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s)**
+- Full project walkthrough
+- Step-by-step guidance
+- Advanced features demonstration
 
-### 💼 **Perfect For:**
-- Students learning Business Intelligence
-- Professionals upgrading Power BI skills
-- Career builders enhancing portfolios
-- Sports analysts seeking data insights
+### 💼 **Connect Professionally:**
+**[LinkedIn Project Portfolio](https://www.linkedin.com/in/raslen-ferchihi/details/projects/)**
+- Professional project showcase
+- Career portfolio integration
+- Industry connections
+
+### 🎯 **Perfect For:**
+- **Beginners:** Start with 60-second video
+- **Students:** Learn through complete tutorial
+- **Professionals:** Enhance BI skills
+- **Career Builders:** Strengthen portfolios
+- **Sports Analysts:** Apply analytics techniques
 
 ---
 
