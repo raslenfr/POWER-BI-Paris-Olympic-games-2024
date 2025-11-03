@@ -2,530 +2,513 @@
 
 ## 📊 Project Overview
 
-An interactive Power BI dashboard providing comprehensive analytics and insights into Olympic Games performance data, featuring advanced DAX calculations and engaging visualizations.
+A comprehensive Power BI dashboard analyzing Olympic Games data with interactive visualizations, advanced DAX calculations, and professional business intelligence insights.
 
 <table>
 <thead>
 <tr>
 <th>Component</th>
 <th>Details</th>
-<th>Technology</th>
+<th>Status</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Primary Tool</strong></td>
-<td>Microsoft Power BI</td>
-<td>Business Intelligence Platform</td>
+<td><strong>Project File</strong></td>
+<td><code>Olympics.pbix</code></td>
+<td>✅ Ready to Use</td>
 </tr>
 <tr>
-<td><strong>File Format</strong></td>
-<td>.pbix (Self-contained)</td>
-<td>Embedded dataset included</td>
+<td><strong>Data Source</strong></td>
+<td>Integrated Dataset</td>
+<td>✅ Embedded in File</td>
 </tr>
 <tr>
-<td><strong>Visual Theme</strong></td>
-<td>Olympic-themed design</td>
-<td>Custom backgrounds and styling</td>
+<td><strong>Software Required</strong></td>
+<td>Power BI Desktop</td>
+<td>🆓 Free Download</td>
 </tr>
 <tr>
-<td><strong>Data Architecture</strong></td>
-<td>Star Schema</td>
-<td>Fact and dimension tables</td>
+<td><strong>Demo Video</strong></td>
+<td>YouTube Walkthrough</td>
+<td>🎥 Available</td>
 </tr>
 </tbody>
 </table>
 
-## 🗃️ Data Model Structure
-
-<table>
-<thead>
-<tr>
-<th>Table Type</th>
-<th>Table Name</th>
-<th>Purpose</th>
-<th>Key Metrics</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Fact Table</strong></td>
-<td>Fact</td>
-<td>Core performance metrics</td>
-<td>Medal counts, rankings, scores</td>
-</tr>
-<tr>
-<td><strong>Dimension Tables</strong></td>
-<td>Athletes</td>
-<td>Athlete demographics</td>
-<td>Name, nationality, gender</td>
-</tr>
-<tr>
-<td><strong>Dimension Tables</strong></td>
-<td>Coaches</td>
-<td>Coaching information</td>
-<td>Coach details, team associations</td>
-</tr>
-<tr>
-<td><strong>Dimension Tables</strong></td>
-<td>Medals</td>
-<td>Medal achievements</td>
-<td>Gold, Silver, Bronze allocations</td>
-</tr>
-<tr>
-<td><strong>Dimension Tables</strong></td>
-<td>Teams</td>
-<td>Team information</td>
-<td>Team names, countries, sports</td>
-</tr>
-<tr>
-<td><strong>Dimension Tables</strong></td>
-<td>Gender</td>
-<td>Gender classification</td>
-<td>Male/Female distribution</td>
-</tr>
-</tbody>
-</table>
-
-## 🏠 Dashboard Navigation Structure
-
-<table>
-<thead>
-<tr>
-<th>Page</th>
-<th>Navigation</th>
-<th>Primary Focus</th>
-<th>Visual Components</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Home Page</strong></td>
-<td>Entry Point</td>
-<td>Dashboard Overview</td>
-<td>Olympic theme, navigation buttons</td>
-</tr>
-<tr>
-<td><strong>Athlete & Team Performance</strong></td>
-<td>From Home Page</td>
-<td>Individual & Team Analytics</td>
-<td>Treemaps, Pie Charts, KPIs</td>
-</tr>
-<tr>
-<td><strong>Medal & Country Insights</strong></td>
-<td>From Home Page</td>
-<td>Global Performance Analysis</td>
-<td>Maps, Matrix, Trend Charts</td>
-</tr>
-</tbody>
-</table>
-
-## 🎯 Page 1: Home Dashboard
-
-<table>
-<thead>
-<tr>
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-<th>User Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Background</strong></td>
-<td>Visual Design</td>
-<td>Olympic-themed imagery</td>
-<td>N/A - Decorative</td>
-</tr>
-<tr>
-<td><strong>Navigation Button 1</strong></td>
-<td>Interactive Control</td>
-<td>"Athlete & Team Performance"</td>
-<td>Click to navigate</td>
-</tr>
-<tr>
-<td><strong>Navigation Button 2</strong></td>
-<td>Interactive Control</td>
-<td>"Medal & Country Insights"</td>
-<td>Click to navigate</td>
-</tr>
-</tbody>
-</table>
-
-## 📈 Page 2: Athlete & Team Performance
-
-### 🔍 Interactive Filters
-<table>
-<thead>
-<tr>
-<th>Filter</th>
-<th>Type</th>
-<th>Options</th>
-<th>Functionality</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Athlete Nationality</strong></td>
-<td>Multi-select Dropdown</td>
-<td>All countries + blank option</td>
-<td>Filter by one or multiple nationalities</td>
-</tr>
-<tr>
-<td><strong>Sports/Discipline</strong></td>
-<td>Selector</td>
-<td>All Olympic sports</td>
-<td>Filter by specific sports</td>
-</tr>
-<tr>
-<td><strong>Rank Range</strong></td>
-<td>Slider Control</td>
-<td>1–86 (adjustable)</td>
-<td>Filter athletes by ranking range</td>
-</tr>
-</tbody>
-</table>
-
-### 📊 Visualization Components
-<table>
-<thead>
-<tr>
-<th>Visual</th>
-<th>Type</th>
-<th>Data Displayed</th>
-<th>Insight Provided</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Medals by Nationality</strong></td>
-<td>Treemap</td>
-<td>Total medals per country</td>
-<td>Country performance comparison</td>
-</tr>
-<tr>
-<td><strong>Gender Distribution</strong></td>
-<td>Pie Chart</td>
-<td>Male vs. Female percentages</td>
-<td>Gender representation analysis</td>
-</tr>
-<tr>
-<td><strong>Gold Medals by Team</strong></td>
-<td>Donut Chart</td>
-<td>Gold medal percentages by nationality</td>
-<td>Top-performing countries in gold medals</td>
-</tr>
-</tbody>
-</table>
-
-### 🎯 Key Performance Indicators (KPIs)
-<table>
-<thead>
-<tr>
-<th>KPI</th>
-<th>Metric</th>
-<th>Calculation</th>
-<th>Business Insight</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>National Diversity</strong></td>
-<td>Total Athlete Nationalities</td>
-<td>Count distinct countries</td>
-<td>Global participation level</td>
-</tr>
-<tr>
-<td><strong>Athlete Scale</strong></td>
-<td>Total Athletes</td>
-<td>Count all athletes</td>
-<td>Overall competition size</td>
-</tr>
-<tr>
-<td><strong>Sports Variety</strong></td>
-<td>Number of Sports</td>
-<td>Count distinct sports</td>
-<td>Event diversity</td>
-</tr>
-<tr>
-<td><strong>Female Participation</strong></td>
-<td>Female Participants</td>
-<td>Count female athletes</td>
-<td>Gender inclusion metrics</td>
-</tr>
-<tr>
-<td><strong>Male Participation</strong></td>
-<td>Male Participants</td>
-<td>Count male athletes</td>
-<td>Gender balance analysis</td>
-</tr>
-</tbody>
-</table>
-
-## 🌍 Page 3: Global Medal & Country Insights
-
-### 🎯 Medal KPIs
-<table>
-<thead>
-<tr>
-<th>Medal Type</th>
-<th>KPI Name</th>
-<th>Calculation</th>
-<th>Significance</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🥉 Bronze</td>
-<td>Total Bronze Medals</td>
-<td>Sum of bronze medals</td>
-<td>Third-place achievements</td>
-</tr>
-<tr>
-<td>🥈 Silver</td>
-<td>Total Silver Medals</td>
-<td>Sum of silver medals</td>
-<td>Second-place performances</td>
-</tr>
-<tr>
-<td>🥇 Gold</td>
-<td>Total Gold Medals</td>
-<td>Sum of gold medals</td>
-<td>Championship-level achievements</td>
-</tr>
-</tbody>
-</table>
-
-### 📊 Advanced Visual Analytics
-<table>
-<thead>
-<tr>
-<th>Visual</th>
-<th>Chart Type</th>
-<th>Data Relationship</th>
-<th>Analytical Insight</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Country Performance Matrix</strong></td>
-<td>Matrix Table</td>
-<td>Country vs. Performance Quintile</td>
-<td>Country ranking distribution</td>
-</tr>
-<tr>
-<td><strong>Athlete Efficiency</strong></td>
-<td>Stacked Area Chart</td>
-<td>Medals per athlete by nationality</td>
-<td>Country performance efficiency</td>
-</tr>
-<tr>
-<td><strong>Performance Trends</strong></td>
-<td>Line Chart</td>
-<td>Moving average of medals by rank</td>
-<td>Performance trend analysis</td>
-</tr>
-<tr>
-<td><strong>Sports Participation</strong></td>
-<td>Stacked Bar Chart</td>
-<td>Number of sports vs. athlete count</td>
-<td>Sports diversity per country</td>
-</tr>
-<tr>
-<td><strong>Global Distribution</strong></td>
-<td>Azure Map</td>
-<td>Athlete distribution by country</td>
-<td>Geographical participation analysis</td>
-</tr>
-</tbody>
-</table>
-
-## ⚡ Technical Features
-
-<table>
-<thead>
-<tr>
-<th>Feature Category</th>
-<th>Specific Features</th>
-<th>Technology Used</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Interactivity</strong></td>
-<td>Interactive visuals, slicers, filters</td>
-<td>Power BI Native Controls</td>
-</tr>
-<tr>
-<td><strong>Data Management</strong></td>
-<td>Embedded dataset, no external files</td>
-<td>Power BI Internal Data Model</td>
-</tr>
-<tr>
-<td><strong>Calculations</strong></td>
-<td>DAX-driven KPIs, dynamic insights</td>
-<td>DAX (Data Analysis Expressions)</td>
-</tr>
-<tr>
-<td><strong>Navigation</strong></td>
-<td>Page-to-page navigation buttons</td>
-<td>Power BI Buttons & Actions</td>
-</tr>
-<tr>
-<td><strong>Geospatial Analysis</strong></td>
-<td>Country-based mapping with bubble sizes</td>
-<td>Azure Maps Integration</td>
-</tr>
-</tbody>
-</table>
-
-## 🚀 Implementation Guide
+## 🚀 Quick Start Guide
 
 <table>
 <thead>
 <tr>
 <th>Step</th>
 <th>Action</th>
-<th>Requirements</th>
+<th>Time Required</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>1. Access</strong></td>
-<td>Download or clone repository</td>
-<td>GitHub access or file download</td>
+<td><strong>1. Download</strong></td>
+<td>Get <code>Olympics.pbix</code> file</td>
+<td>2 minutes</td>
 </tr>
 <tr>
-<td><strong>2. Open</strong></td>
-<td>Open .pbix file in Power BI Desktop</td>
-<td>Power BI Desktop installed</td>
+<td><strong>2. Install</strong></td>
+<td>Power BI Desktop (free)</td>
+<td>5 minutes</td>
 </tr>
 <tr>
-<td><strong>3. Explore</strong></td>
-<td>Use buttons and slicers for insights</td>
-<td>Basic Power BI navigation skills</td>
+<td><strong>3. Open</strong></td>
+<td>Launch .pbix file</td>
+<td>1 minute</td>
 </tr>
 <tr>
-<td><strong>4. Analyze</strong></td>
-<td>Interact with filters and visualizations</td>
-<td>No technical skills required</td>
+<td><strong>4. Explore</strong></td>
+<td>Interact with dashboard</td>
+<td>Immediate</td>
 </tr>
 </tbody>
 </table>
 
-## 📺 Demonstration Resources
+## 🎥 Video Tutorial & Live Demo
 
 <table>
 <thead>
 <tr>
 <th>Resource</th>
-<th>Platform</th>
-<th>Content</th>
-<th>Access</th>
+<th>Content Covered</th>
+<th>Duration</th>
+<th>Link</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><strong>YouTube Tutorial</strong></td>
+<td>Complete project walkthrough</td>
+<td>Full Explanation</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">Watch Here</a></td>
+</tr>
 <tr>
 <td><strong>Live Demo</strong></td>
-<td>YouTube</td>
-<td>Complete dashboard walkthrough</td>
-<td>@raslenferchihi channel</td>
-</tr>
-<tr>
-<td><strong>Project Files</strong></td>
-<td>GitHub</td>
-<td>Complete .pbix source file</td>
-<td>Repository download</td>
-</tr>
-<tr>
-<td><strong>Documentation</strong></td>
-<td>README</td>
-<td>Comprehensive usage guide</td>
-<td>Current document</td>
+<td>Real-time dashboard interaction</td>
+<td>Included in Video</td>
+<td><a href="https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s">View Demo</a></td>
 </tr>
 </tbody>
 </table>
 
-## 🔒 License Information
-
+### 📹 Video Content Breakdown
 <table>
 <thead>
 <tr>
-<th>Usage Type</th>
-<th>Permission</th>
-<th>Restrictions</th>
+<th>Video Section</th>
+<th>Learning Objectives</th>
+<th>Skills Demonstrated</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Educational Use</strong></td>
-<td>✅ Allowed</td>
-<td>Learning and academic purposes</td>
+<td><strong>Data Transformation</strong></td>
+<td>Raw data to structured format</td>
+<td>Power Query, Data Cleaning</td>
 </tr>
 <tr>
-<td><strong>Portfolio Display</strong></td>
-<td>✅ Allowed</td>
-<td>Career and skill demonstration</td>
+<td><strong>Dashboard Creation</strong></td>
+<td>Athletes, teams, medal statistics</td>
+<td>Visualization Design</td>
 </tr>
 <tr>
-<td><strong>Commercial Use</strong></td>
-<td>❌ Not Permitted</td>
-<td>No business or revenue generation</td>
-</tr>
-<tr>
-<td><strong>Modification</strong></td>
-<td>✅ Allowed</td>
-<td>For personal learning purposes</td>
-</tr>
-<tr>
-<td><strong>Redistribution</strong></td>
-<td>❌ Not Permitted</td>
-<td>Cannot share modified versions</td>
-</tr>
-</tbody>
-</table>
-
-## 📊 Skill Demonstration
-
-<table>
-<thead>
-<tr>
-<th>Technical Skill</th>
-<th>Demonstration Level</th>
-<th>Specific Implementation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Power BI Development</strong></td>
-<td>Advanced</td>
-<td>Multi-page dashboard with navigation</td>
-</tr>
-<tr>
-<td><strong>DAX Programming</strong></td>
-<td>Intermediate</td>
-<td>Custom KPIs and calculated measures</td>
+<td><strong>DAX Measures</strong></td>
+<td>Dynamic calculations and KPIs</td>
+<td>Advanced DAX Formulas</td>
 </tr>
 <tr>
 <td><strong>Data Modeling</strong></td>
-<td>Intermediate</td>
-<td>Star schema with fact/dimension tables</td>
+<td>Table relationships and structure</td>
+<td>Data Model Design</td>
 </tr>
+<tr>
+<td><strong>Interactivity</strong></td>
+<td>Filters, slicers, user controls</td>
+<td>User Experience Design</td>
+</tr>
+</tbody>
+</table>
+
+## 📁 Project Structure
+
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+<th>File Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Main Dashboard</strong></td>
+<td>Complete Power BI solution</td>
+<td><code>.pbix</code></td>
+</tr>
+<tr>
+<td><strong>Integrated Data</strong></td>
+<td>All datasets embedded</td>
+<td>Internal Data Model</td>
+</tr>
+<tr>
+<td><strong>Visualizations</strong></td>
+<td>Charts, maps, KPIs</td>
+<td>Power BI Visuals</td>
+</tr>
+<tr>
+<td><strong>DAX Formulas</strong></td>
+<td>Calculated measures and columns</td>
+<td>Embedded Code</td>
+</tr>
+</tbody>
+</table>
+
+## 🎯 Dashboard Features
+
+### 🏠 Home Page
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+<th>User Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Olympic Theme</strong></td>
+<td>Professional sports design</td>
+<td>Engaging visual experience</td>
+</tr>
+<tr>
+<td><strong>Navigation System</strong></td>
+<td>Intuitive page switching</td>
+<td>Easy dashboard exploration</td>
+</tr>
+<tr>
+<td><strong>Quick Access</strong></td>
+<td>Direct to key insights</td>
+<td>Time-efficient analysis</td>
+</tr>
+</tbody>
+</table>
+
+### 📈 Performance Analytics
+<table>
+<thead>
+<tr>
+<th>Visualization</th>
+<th>Data Insight</th>
+<th>Business Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Medal Treemaps</strong></td>
+<td>Country performance comparison</td>
+<td>Competitive analysis</td>
+</tr>
+<tr>
+<td><strong>Gender Distribution</strong></td>
+<td>Participation demographics</td>
+<td>Diversity metrics</td>
+</tr>
+<tr>
+<td><strong>Rank Analysis</strong></td>
+<td>Athlete performance tiers</td>
+<td>Talent assessment</td>
+</tr>
+</tbody>
+</table>
+
+### 🌍 Global Insights
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Technology</th>
+<th>Analytical Power</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Azure Maps</strong></td>
+<td>Geospatial visualization</td>
+<td>Geographical distribution</td>
+</tr>
+<tr>
+<td><strong>Performance Matrix</strong></td>
+<td>Cross-tab analysis</td>
+<td>Multi-dimensional insights</td>
+</tr>
+<tr>
+<td><strong>Trend Analysis</strong></td>
+<td>Moving averages & patterns</td>
+<td>Performance forecasting</td>
+</tr>
+</tbody>
+</table>
+
+## 💡 Learning Outcomes
+
+<table>
+<thead>
+<tr>
+<th>Skill Level</th>
+<th>What You'll Learn</th>
+<th>Practical Application</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Beginner</strong></td>
+<td>Power BI basics, navigation</td>
+<td>Dashboard interaction</td>
+</tr>
+<tr>
+<td><strong>Intermediate</strong></td>
+<td>DAX formulas, data modeling</td>
+<td>Business calculations</td>
+</tr>
+<tr>
+<td><strong>Advanced</strong></td>
+<td>Complex relationships, optimization</td>
+<td>Enterprise analytics</td>
+</tr>
+</tbody>
+</table>
+
+## 🔧 Technical Specifications
+
+<table>
+<thead>
+<tr>
+<th>Requirement</th>
+<th>Specification</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Software</strong></td>
+<td>Power BI Desktop</td>
+<td>Free download from Microsoft</td>
+</tr>
+<tr>
+<td><strong>System Requirements</strong></td>
+<td>Standard PC/Mac</td>
+<td>No special hardware needed</td>
+</tr>
+<tr>
+<td><strong>Data Sources</strong></td>
+<td>Embedded in file</td>
+<td>No external connections required</td>
+</tr>
+<tr>
+<td><strong>File Size</strong></td>
+<td>Optimized .pbix</td>
+<td>Fast loading and performance</td>
+</tr>
+</tbody>
+</table>
+
+## 🎓 Target Audience
+
+<table>
+<thead>
+<tr>
+<th>Audience</th>
+<th>Benefit</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Students</strong></td>
+<td>Learn Power BI hands-on</td>
+<td>Academic projects, skill development</td>
+</tr>
+<tr>
+<td><strong>Professionals</strong></td>
+<td>Business intelligence skills</td>
+<td>Career advancement, reporting</td>
+</tr>
+<tr>
+<td><strong>Data Analysts</strong></td>
+<td>Advanced DAX techniques</td>
+<td>Real-world analytics projects</td>
+</tr>
+<tr>
+<td><strong>Sports Analysts</strong></td>
+<td>Performance analytics</td>
+<td>Athlete and team analysis</td>
+</tr>
+</tbody>
+</table>
+
+## 📊 Career Value
+
+<table>
+<thead>
+<tr>
+<th>Skill Demonstrated</th>
+<th>Industry Relevance</th>
+<th>Portfolio Impact</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>Data Visualization</strong></td>
-<td>Advanced</td>
-<td>Multiple chart types and interactive elements</td>
+<td>High demand across industries</td>
+<td>Showcases design skills</td>
 </tr>
 <tr>
-<td><strong>UI/UX Design</strong></td>
-<td>Intermediate</td>
-<td>Olympic-themed consistent design</td>
+<td><strong>DAX Programming</strong></td>
+<td>Power BI specialist roles</td>
+<td>Demonstrates technical depth</td>
+</tr>
+<tr>
+<td><strong>Business Intelligence</strong></td>
+<td>BI developer positions</td>
+<td>End-to-end project example</td>
+</tr>
+<tr>
+<td><strong>Data Storytelling</strong></td>
+<td>Analyst and reporting roles</td>
+<td>Communication of insights</td>
+</tr>
+</tbody>
+</table>
+
+## 🔄 Usage Scenarios
+
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>How to Use</th>
+<th>Expected Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Learning Power BI</strong></td>
+<td>Follow video tutorial</td>
+<td>Hands-on skill development</td>
+</tr>
+<tr>
+<td><strong>Portfolio Project</strong></td>
+<td>Demonstrate to employers</td>
+<td>Career opportunity creation</td>
+</tr>
+<tr>
+<td><strong>Teaching Resource</strong></td>
+<td>Classroom demonstration</td>
+<td>Student engagement</td>
+</tr>
+<tr>
+<td><strong>Template Creation</strong></td>
+<td>Adapt for other sports</td>
+<td>Custom analytics solutions</td>
+</tr>
+</tbody>
+</table>
+
+## 📈 Project Impact
+
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Time to Implement</strong></td>
+<td>Immediate</td>
+<td>No setup required</td>
+</tr>
+<tr>
+<td><strong>Learning Curve</strong></td>
+<td>Gentle</td>
+<td>Suitable for all levels</td>
+</tr>
+<tr>
+<td><strong>Practical Value</strong></td>
+<td>High</td>
+<td>Real business intelligence</td>
+</tr>
+<tr>
+<td><strong>Career Relevance</strong></td>
+<td>Very High</td>
+<td>Industry-standard tool</td>
+</tr>
+</tbody>
+</table>
+
+## 🎯 Next Steps
+
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Priority</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Download File</strong></td>
+<td>High</td>
+<td>Immediate access</td>
+</tr>
+<tr>
+<td><strong>Watch Tutorial</strong></td>
+<td>High</td>
+<td>Complete understanding</td>
+</tr>
+<tr>
+<td><strong>Practice Skills</strong></td>
+<td>Medium</td>
+<td>Skill reinforcement</td>
+</tr>
+<tr>
+<td><strong>Apply to Projects</strong></td>
+<td>Medium</td>
+<td>Practical experience</td>
 </tr>
 </tbody>
 </table>
 
 ---
 
+## 🚀 Ready to Get Started?
+
+### 📥 **Download Now:**
+- **File:** `Olympics.pbix`
+- **Requirements:** Power BI Desktop (Free)
+- **Setup Time:** 2 minutes
+
+### 🎬 **Watch Complete Tutorial:**
+**[YouTube Video: Paris Olympics 2024 Power BI Dashboard](https://www.youtube.com/watch?v=9OaXmnNcHFk&t=619s)**
+
+### 💼 **Perfect For:**
+- Students learning Business Intelligence
+- Professionals upgrading Power BI skills
+- Career builders enhancing portfolios
+- Sports analysts seeking data insights
+
+---
+
 **Developed by Raslen Ferchichi**  
-*Transforming sports data into actionable insights through powerful business intelligence* 📈🎯
+*Empowering data-driven decisions through interactive business intelligence* 📊🎯
+
+**⭐ Star this repository if you find it helpful for your learning journey!**
